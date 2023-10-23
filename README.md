@@ -21,16 +21,16 @@ No. | Git | Github
 - make sure Git is installed 
 - Then open your terminal 
  * To set your username:
-    * `git config --global user.name "yourUsername"`
+    * ```git config --global user.name "yourUsername"```
     * To confirm your username:
-    * `git config --global user.name`
+    * ```git config --global user.name```
     * To set your email:
-    * `git config --global user.email "youremail@gmail.com"`
+    * ```git config --global user.email "youremail@gmail.com"```
     * To confirm your email:
-    * `git config --global user.email`
+    * ```git config --global user.email```
 4. Creating New repository
 * navigate to your project's root directory in your terminal and run:
-    * `git init`
+    * ```git init```
 5. Add Files to the Repository:
 * Adding all your changed files to Git repository using the following command:
-    * `git add . `
+    * ```git add . ```
