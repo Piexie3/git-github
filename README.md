@@ -72,7 +72,17 @@ No. | Git | Github
     ```
     git commit -m "Your commit message"
     ```
-9. Push Changes to the Remote Repository
+9. To show information about specific commit use
+    ```
+    git show commit_id
+    ```
+10. To display Commit history, run:
+* Note - to exit from command press `q`
+
+    ```
+    git log
+    ```
+11. Push Changes to the Remote Repository
 * If you have a remote repository, you can push your local changes to it:
     * The `-u` flag creates a tracking reference for the branch, and `origin main` puts the code in the `main` branch.
     * This command is used to push your local changes to the "master" branch 
@@ -84,21 +94,67 @@ No. | Git | Github
     ```
     git push -u origin your_branch_name
     ```
+ * You can also use 
+    ```
+    git push
+    ```
 
- 10. Pull Changes from the Remote Repository:
+ 12. Pull Changes from the Remote Repository:
  * Used to sync with changes made by others in a remote repository:
     * This fetches changes from the remote "master" branch and merges them into your local branch.
         ```
          git pull origin master
         ```
+        
 
- 11. To add README to your project, you can run
+ 13. To add README to your project, you can run
         ```
         git add Readme.md 
         ```
-
- 12. Creating New Branch
- * use `-M` to move the name to main
+### Branching
+ 1. Creating New Branch
     ```
     git branch name_of_your_branch
+    ```
+ 2. Checking list of your branches
+    ```
+    git branch
+    ```
+    ```
+    git checkout
+    ```
+ 2. Swithching from one branch to another
+    ```
+    git checkout branch_name
+    ```
+    * available in Git versions 2.23 and later
+    ```
+    git switch branch_name
+    ```
+    * If the branch you are switching to doesn't exist yet, you can create it at the same time by adding the `-b` and `-c` in switch
+    ```
+    git checkout -b new_branch_name
+    ```
+    ```
+    git switch -c new_branch_name
+    ```
+ 3. Deleting a branch
+ * make sure you are not in the branch you want to delete
+    ```
+    git branch -d branch_name   
+    ```
+4. Renaming a branch:
+
+    ```
+    git branch -m new_branch_name
+    ```
+5. Merge Branches
+* To Merge the specified branch into the current branch.use
+    ```
+    git merge branch_name
+    ```
+6. Setting Upstream Branch
+    * Sets the upstream branch for the current branch to track a remote branch.
+    ```
+    git branch --set-upstream-to=origin/branch_name
     ```
