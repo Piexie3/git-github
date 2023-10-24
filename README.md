@@ -57,15 +57,15 @@ No. | Git | Github
     
 6. Add Files to the Repository:
 * Adding all your changed files to Git repository using the following command:
-     ```
-     git add .
-      ```
+```
+git add .
+```
 
 7. To double-check that your changes have been added:
 *  It will show you a list of the files that have been staged
-    * ```
-    git status
-    ```
+```
+git status
+ ```
 
 8. Commit the changes to save them to your Git repository:
     * `-m` means message
