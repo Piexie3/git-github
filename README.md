@@ -93,9 +93,9 @@ No. | Git | Github
         ```
 
  11. To add README to your project, you can run
-    ```
-    git add Readme.md 
-    ```
+        ```
+        git add Readme.md 
+        ```
 
  12. Creating New Branch
  * use `-M` to move the name to main
