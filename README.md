@@ -88,17 +88,17 @@ No. | Git | Github
  10. Pull Changes from the Remote Repository:
  * Used to sync with changes made by others in a remote repository:
     * This fetches changes from the remote "master" branch and merges them into your local branch.
-    ```
-    git pull origin master
-    ```
+        ```
+         git pull origin master
+        ```
 
- 11. To add README to your project, you can run:
+ 11. To add README to your project, you can run
     ```
     git add Readme.md 
     ```
 
  12. Creating New Branch
-    * use `-M` to move the name to main
+ * use `-M` to move the name to main
     ```
     git branch name_of_your_branch
     ```
