@@ -57,48 +57,48 @@ No. | Git | Github
     
 6. Add Files to the Repository:
 * Adding all your changed files to Git repository using the following command:
-```
-git add .
-```
+    ```
+    git add .
+    ```
 
 7. To double-check that your changes have been added:
 *  It will show you a list of the files that have been staged
-```
-git status
- ```
+    ```
+    git status
+    ```
 
 8. Commit the changes to save them to your Git repository:
     * `-m` means message
-```
-git commit -m "Your commit message"
-```
+    ```
+    git commit -m "Your commit message"
+    ```
 9. Push Changes to the Remote Repository
 * If you have a remote repository, you can push your local changes to it:
     * The `-u` flag creates a tracking reference for the branch, and `origin main` puts the code in the `main` branch.
     * This command is used to push your local changes to the "master" branch 
-```
-git push -u origin master
-```
+    ```
+    git push -u origin master
+    ```
  * if you want to push to different branch
     
- ```
- git push -u origin your_branch_name
- ```
+    ```
+    git push -u origin your_branch_name
+    ```
 
  10. Pull Changes from the Remote Repository:
  * Used to sync with changes made by others in a remote repository:
     * This fetches changes from the remote "master" branch and merges them into your local branch.
- ```
- git pull origin master
- ```
+    ```
+    git pull origin master
+    ```
 
  11. To add README to your project, you can run:
- ```
- git add Readme.md 
- ```
+    ```
+    git add Readme.md 
+    ```
 
  12. Creating New Branch
     * use `-M` to move the name to main
- ```
- git branch name_of_your_branch
- ```
+    ```
+    git branch name_of_your_branch
+    ```
