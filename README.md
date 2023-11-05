@@ -163,4 +163,4 @@ No. | Git | Github
     git branch --set-upstream-to=origin/branch_name
     ```
 
-### If you like the the content give a :star: and follow
+### If you like the the content give a :star: and follow :heart_eyes: :v:
