@@ -95,7 +95,7 @@ No. | Git | Github
     git push -u origin your_branch_name
     ```
  * Fetching Updates
-    ```git
+    ```terminal
     git fetch
     ```
  * You can also use 
