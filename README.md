@@ -91,7 +91,7 @@ No. | Git | Github
     ```
  * if you want to push to different branch
     
-    ```git
+    ``` git
     git push -u origin your_branch_name
     ```
  * Fetching Updates
