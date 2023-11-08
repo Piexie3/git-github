@@ -86,70 +86,70 @@ No. | Git | Github
 * If you have a remote repository, you can push your local changes to it:
     * The `-u` flag creates a tracking reference for the branch, and `origin main` puts the code in the `main` branch.
     * This command is used to push your local changes to the "master" branch 
-    ```
+    ```git
     git push -u origin master
     ```
  * if you want to push to different branch
     
-    ```
+    ```git
     git push -u origin your_branch_name
     ```
  * Fetching Updates
-    ```
+    ```git
     git fetch
     ```
  * You can also use 
-    ```
+    ```git
     git push
     ```
 
  12. Pull Changes from the Remote Repository:
  * Used to sync with changes made by others in a remote repository:
     * This fetches changes from the remote "master" branch and merges them into your local branch.
-        ```
+        ```git
          git pull origin master
         ```
         
 
  13. To add README to your project, you can run
-        ```
+        ```git
         git add Readme.md 
         ```
 ### Branching
  1. Creating New Branch
-    ```
+    ```git
     git branch name_of_your_branch
     ```
  2. Checking list of your branches
-    ```
+    ```git
     git branch
     ```
-    ```
+    ```git
     git checkout
     ```
  2. Swithching from one branch to another
-    ```
+    ```git
     git checkout branch_name
     ```
     * available in Git versions 2.23 and later
-    ```
+    ```git
     git switch branch_name
     ```
     * If the branch you are switching to doesn't exist yet, you can create it at the same time by adding the `-b` and `-c` in switch
-    ```
+    ```git
     git checkout -b new_branch_name
     ```
-    ```
+    ```git
     git switch -c new_branch_name
     ```
  3. Deleting a branch
  * make sure you are not in the branch you want to delete
-    ```
+    ```git
     git branch -d branch_name   
     ```
 4. Renaming a branch:
 
-    ```
+    ```git
     git branch -m new_branch_name
     ```
 5. Merge Branches
