@@ -18,7 +18,7 @@ No. | Git | Github
 1. [Download here](https://git-scm.com/download) depending on your Operating System
     * Open your terminal and run the command to confirm if Git was successfully installed.
     ```bash
-    $git version
+    $ git version
     ```
 2. Create Github acconunt [here](https://github.com/)
 3. Connecting your Github account with Git
