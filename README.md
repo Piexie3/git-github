@@ -1,3 +1,6 @@
+## NOTE: 
+- These are not all git commands i will be updating it
+
 ## What is Git & Github
 - `Git` - is a free and open-source distributed version control system used for source code management. It is designed to handle small to very large projects with speed and efficiency. Git tracks changes in any set of computer files, enabling multiple developers to work together on non-linear development.
 - `Github` - is a for-profit company that offers a cloud-based Git repository hosting service. Essentially, it makes it a lot easier for individuals and teams to use Git for version control and collaboration.
