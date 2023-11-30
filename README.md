@@ -98,11 +98,11 @@ No. | Git | Github
     git push -u origin your_branch_name
     ```
  * Fetching Updates
-    ```bash
+    ```powershell
     git fetch
     ```
  * You can also use 
-    ```bash
+    ```powershell
     git push
     ```
 
@@ -112,8 +112,23 @@ No. | Git | Github
         ```bash
          git pull origin master
         ```
-        
-
+ 13. Changing remote Url
+    ```powershell
+    git remote set-url origin https://new-url.git
+    ```
+ 14. Adding Multiple Urls
+    * You can use `--add` to add an additional URL and ``--push`` for pushing. This is helpful if you have read and write access via different URLs.
+    ```powershell
+    git remote set-url --add --push origin https://new-push-url.git
+    ```
+ 15. Removig remote url
+    ```powershell
+    git remote set-url --delete origin https://old-url.git
+    ```
+ 16. Changing fetch Url
+    ```powershell
+    git remote set-url origin https://new-fetch-url.git
+    ```
  13. To add README to your project, you can run
     ```bash
     gitt add Readme.md 
