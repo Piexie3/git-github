@@ -130,9 +130,9 @@ No. | Git | Github
        git remote set-url origin https://new-fetch-url.git
        ```
  13. To add README to your project, you can run
-    ```powershell
-    git add Readme.md 
-    ```
+       ```powershell
+       git add Readme.md 
+       ```
 ### Branching
  1. Creating New Branch
     ```bash
