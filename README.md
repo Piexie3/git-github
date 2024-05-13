@@ -113,19 +113,19 @@ No. | Git | Github
          git pull origin master
         ```
  13. Changing remote Url
-    ```powershell
-       git remote set-url origin https://new-url.git
-    ```
- 14. Adding Multiple Urls
+       ```powershell
+         git remote set-url origin https://new-url.git
+       ```
+ 15. Adding Multiple Urls
     * You can use `--add` to add an additional URL and ``--push`` for pushing. This is helpful if you have read and write access via different URLs.
     ```powershell
     git remote set-url --add --push origin https://new-push-url.git
     ```
- 15. Removig remote url
+ 16. Removig remote url
     ```bash
     git remote set-url --delete origin https://old-url.git
     ```
- 16. Changing fetch Url
+ 17. Changing fetch Url
     ```bash
     git remote set-url origin https://new-fetch-url.git
     ```
