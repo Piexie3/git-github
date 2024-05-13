@@ -109,16 +109,16 @@ No. | Git | Github
  12. Pull Changes from the Remote Repository:
  * Used to sync with changes made by others in a remote repository:
     * This fetches changes from the remote "master" branch and merges them into your local branch.
-        ```bash
+        ```powershell
          git pull origin master
         ```
  13. Changing remote Url
-    ```bash
-    git remote set-url origin https://new-url.git
+    ```powershell
+       git remote set-url origin https://new-url.git
     ```
  14. Adding Multiple Urls
     * You can use `--add` to add an additional URL and ``--push`` for pushing. This is helpful if you have read and write access via different URLs.
-    ```bash
+    ```powershell
     git remote set-url --add --push origin https://new-push-url.git
     ```
  15. Removig remote url
