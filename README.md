@@ -118,20 +118,20 @@ No. | Git | Github
        ```
  15. Adding Multiple Urls
     * You can use `--add` to add an additional URL and ``--push`` for pushing. This is helpful if you have read and write access via different URLs.
-    ```powershell
-    git remote set-url --add --push origin https://new-push-url.git
-    ```
+       ```powershell
+       git remote set-url --add --push origin https://new-push-url.git
+       ```
  16. Removig remote url
-    ```bash
-    git remote set-url --delete origin https://old-url.git
-    ```
+       ```powershell
+       git remote set-url --delete origin https://old-url.git
+       ```
  17. Changing fetch Url
-    ```bash
-    git remote set-url origin https://new-fetch-url.git
-    ```
+       ```powershell
+       git remote set-url origin https://new-fetch-url.git
+       ```
  13. To add README to your project, you can run
-    ```bash
-    gitt add Readme.md 
+    ```powershell
+    git add Readme.md 
     ```
 ### Branching
  1. Creating New Branch
