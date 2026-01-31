@@ -133,6 +133,11 @@ No. | Git | Github
        ```powershell
        git add Readme.md 
        ```
+ 14. To pull a repository from github
+     ```powershell
+     git clone https://github.com/piexie3/git-github
+     ```
+ 16. 
 ### Branching
  1. Creating New Branch
     ```bash
