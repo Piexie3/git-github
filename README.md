@@ -185,5 +185,22 @@ No. | Git | Github
     ```bash
     git branch --set-upstream-to=origin/branch_name
     ```
+## Tags
+- tags are used to point or reference to a certain commit at a certain point of time. Tags are not equal as branches since for branches they are updated once you commit another change.
+- In most cases tags are used in versioning of the repository
+- their is a standard for of verioning that is `2.4.1` as an example and for this, every separated number has a meaning.
+- For every versions, the follow this convention, for example `4.3.5` means `Major release . Minor release . Patch fix` respectively
+#### Types of tags
+ Their is two types of tags
+    - annotated tags 
+    - lightwight tags
+- To list tags in your repository you can use this command
+```bash
+git tag
+```
+- to fliter, you can use where `-l` means list
+```bash
+git tag -l "*beta*"
+```
 
 ### If you like the the content give a :star: and follow :heart_eyes: :v:
